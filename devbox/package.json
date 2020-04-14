@@ -1,0 +1,22 @@
+{
+  "name": "devbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "synth": "npm run build && cdk synth",
+    "deploy": "npm run build && cdk deploy",
+    "destroy": "cdk destroy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@aws-cdk/core": "^1.32.2",
+    "cdk": "^1.32.2",
+    "cdk-lib-ec2": "file:../lib/ec2",
+    "typescript": "^3.8.3"
+  }
+}

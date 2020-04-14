@@ -1,0 +1,5 @@
+{
+  "app": "dist/demobox.js",
+  "versionReporting": false,
+  "requireApproval": "never"
+}
